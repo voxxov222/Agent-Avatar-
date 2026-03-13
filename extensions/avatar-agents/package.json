@@ -1,0 +1,29 @@
+{
+  "name": "@clawdbot/avatar-agents",
+  "version": "2026.1.25",
+  "type": "module",
+  "description": "Clawdbot Avatar Agents plugin - deploy AI agents with custom interactive 3D avatars",
+  "clawdbot": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "install": {
+      "npmSpec": "@clawdbot/avatar-agents",
+      "localPath": "extensions/avatar-agents",
+      "defaultChoice": "npm"
+    }
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "clawdbot": "workspace:*"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

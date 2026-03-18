@@ -13,7 +13,7 @@ Use this Skill whenever the agent needs to perform **programmatic control of the
 
 1. **Environment Setup**  
    Ensure the agent is running in a pre-configured environment with:  
-   - Node.js installed (v18+ recommended).  
+   - Node.js installed (v22+ recommended).  
    - Python 3.11+ with required packages.  
    - Solana CLI and/or EVM tools (Hardhat, ethers.js).  
    - Any necessary API keys or RPC URLs exported as environment variables.  
